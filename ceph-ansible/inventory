@@ -1,0 +1,36 @@
+[mons]
+host1
+host2
+host3
+#host4
+
+[osds]
+host1
+host2
+host3
+host4
+host5
+
+[mgrs]
+host1
+host2
+host3
+host4
+
+[mdss]
+host1
+host2
+host3
+host4
+
+[rgws]
+host1
+host2
+host3
+#host4
+
+[grafana-server]
+deployer ansible_connection=local
+
+[clients]
+deployer  ansible_connection=local
